@@ -3,17 +3,17 @@
 *Integrantes:*
 **Gabriel Cardaba López y Ángel Luis Martínez Colastra**
 
-**Funcionalidad:** 
+## Funcionalidad:
 
-Primero es importante diseñar la representación del tablero de ajedrez. Representaremos un tablero de 8x8.
+Primero es importante diseñar la representación del **tablero de ajedrez**. Representaremos un tablero de 8x8.
 
-Crearemos clases para cada tipo de pieza de ajedrez.
+Crearemos **clases para cada tipo de pieza** de ajedrez.
 
-El juego de ajedrez tiene reglas específicas sobre cómo se mueven las piezas, cómo se capturan otras piezas y cuándo termina el juego (por ejemplo, jaque mate o empate). Tendremos todo esto en cuenta. 
+El juego de **ajedrez tiene reglas específicas** sobre cómo se mueven las piezas, cómo se capturan otras piezas y cuándo termina el juego (por ejemplo, jaque mate o empate). Tendremos todo esto en cuenta. 
 
-Para que los jugadores puedan interactuar con el juego, necesitaremos una interfaz de usuario. Esto incluirá el tablero de ajedrez y elementos como botones para iniciar un nuevo juego o hacer movimientos. 
+Para que los jugadores puedan interactuar con el juego, necesitaremos una **interfaz de usuario**. Esto incluirá el tablero de ajedrez y elementos como botones para iniciar un nuevo juego o hacer movimientos. 
 
-A medida que los jugadores realicen movimientos en el tablero, se verificara si esos movimientos son legales según las reglas del ajedrez.  
+A medida que los jugadores realicen movimientos en el tablero, se **verificara si esos movimientos son legales** según las reglas del ajedrez.  
 
 ## Esquema UML
 
