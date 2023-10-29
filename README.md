@@ -15,4 +15,11 @@ Para que los jugadores puedan interactuar con el juego, necesitaremos una interf
 
 A medida que los jugadores realicen movimientos en el tablero, se verificara si esos movimientos son legales según las reglas del ajedrez.  
 
+## Esquema UML
+
 ![image](https://github.com/angelmartzz/Ajedrez/assets/144675850/725cda42-53bb-40aa-b11e-a92718b558b0)
+
+## Interfaz (boceto) 
+
+![image](https://github.com/angelmartzz/Ajedrez/assets/144675850/172b9497-8ffb-49de-b062-9e086e8d9c69)
+
