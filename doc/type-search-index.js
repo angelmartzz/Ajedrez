@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"ajedrez","l":"Alfil"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ajedrez","l":"Caballo"},{"p":"ajedrez","l":"Peon"},{"p":"ajedrez","l":"Pieza"},{"p":"ajedrez","l":"Player"},{"p":"ajedrez","l":"Reina"},{"p":"ajedrez","l":"Rey"},{"p":"ajedrez","l":"Torre"}];updateSearchResults();
