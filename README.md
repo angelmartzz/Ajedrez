@@ -1,5 +1,6 @@
 # Ajedrez
-Integrantes:
+
+##Integrantes:
 Gabriel Cardaba López y Ángel Luis Martínez Colastra 
 
 Funcionalidad: 
