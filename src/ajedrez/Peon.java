@@ -1,47 +1,42 @@
 package ajedrez;
 
-public class Peon {
-    int x; // Posición actual en el eje X
-    int y; // Posición actual en el eje Y
-    
-    public Peon(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-    
-    // Método para validar si un movimiento es válido para el peón
-    public boolean esMovimientoValido(int nuevaX, int nuevaY, boolean primerMovimiento) {
-        int deltaX = Math.abs(nuevaX - x);
-        int deltaY = nuevaY - y;
-        
-        // Si es el primer movimiento, el peón puede avanzar 1 o 2 casillas hacia adelante
-        if (primerMovimiento) {
-            return (deltaX == 0 && (deltaY == 1 || deltaY == 2));
-        }
-        
-        // En movimientos subsiguientes, el peón solo puede avanzar 1 casilla hacia adelante
-        return (deltaX == 0 && deltaY == 1);
-    }
-    
-    // Método para mover el peón a una nueva posición si el movimiento es válido
-    public void mover(int nuevaX, int nuevaY, boolean primerMovimiento) {
-        if (esMovimientoValido(nuevaX, nuevaY, primerMovimiento)) {
-            x = nuevaX;
-            y = nuevaY;
-            System.out.println("El peón se ha movido a la posición (" + x + ", " + y + ")");
-        } else {
-            System.out.println("Movimiento inválido para el peón");
-        }
-    }
-    
-    // Método para realizar el movimiento especial del peón al paso
-    public void moverAlPaso(int nuevaX, int nuevaY) {
-        if (nuevaY == y + 1 && Math.abs(nuevaX - x) == 1) {
-            x = nuevaX;
-            y = nuevaY;
-            System.out.println("El peón ha realizado el movimiento al paso a la posición (" + x + ", " + y + ")");
-        } else {
-            System.out.println("Movimiento al paso inválido para el peón");
-        }
-    }
-}
+public class Peon extends Pieza {
+
+	
+	    public Peon(Color color) {
+	        super(color);
+	    }
+
+		/** Los peones solo se mueven hacia adelante (hacia el extremo del oponente) */
+	    /** Las filas aumentan en dirección opuesta para los peones negros y blancos */
+	    /**Movimiento de un paso hacia adelante*/
+		/** Movimiento inicial de dos pasos hacia adelante*/
+		/** Captura en diagonal*/
+		 
+	    @Override
+	    public boolean esMovimientoValido(int filaInicial, int columnaInicial, int filaFinal, int columnaFinal) {
+	    	int filaDiferencia = Math.abs(filaFinal - filaInicial);
+	        int columnaDiferencia = Math.abs(columnaFinal - columnaInicial);
+
+	        int direccion = (getColor() == Color.Blanco) ? -1 : 1;
+
+	        if (filaDiferencia == 1 && columnaDiferencia == 0) {
+	            return true;
+	        }
+
+	        /** Movimiento inicial de dos pasos hacia adelante */
+	        if (filaDiferencia == 2 && columnaDiferencia == 0 && filaInicial == 1 && direccion == 1) {
+	            return true;
+	        }
+	        if (filaDiferencia == 2 && columnaDiferencia == 0 && filaInicial == 6 && direccion == -1) {
+	            return true;
+	        }
+
+	        if (filaDiferencia == 1 && columnaDiferencia == 1 && tablero[filaFinal][columnaFinal].) {
+	            return true;
+	        }
+
+	        return false;
+	    }
+	}
+
