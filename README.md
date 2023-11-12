@@ -26,5 +26,5 @@ A medida que los jugadores realicen movimientos en el tablero, se **verificara s
 ## Actualización
 
 Hemos creado una interfaz, esta bastante incompleta pero hemos podido avanzar en el código.
-![image]![Captura de pantalla 2023-11-12 234147](https://github.com/angelmartzz/Ajedrez/assets/144675850/15a14d03-4091-42be-bccf-4b97a866ad71)
+![Captura de pantalla 2023-11-12 234147](https://github.com/angelmartzz/Ajedrez/assets/144675850/15a14d03-4091-42be-bccf-4b97a866ad71)
 
