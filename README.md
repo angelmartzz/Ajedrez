@@ -23,3 +23,8 @@ A medida que los jugadores realicen movimientos en el tablero, se **verificara s
 
 ![image](https://github.com/angelmartzz/Ajedrez/assets/144675850/172b9497-8ffb-49de-b062-9e086e8d9c69)
 
+## Actualización
+
+Hemos creado una interfaz, esta bastante incompleta pero hemos podido avanzar en el código.
+![image]![Captura de pantalla 2023-11-12 234147](https://github.com/angelmartzz/Ajedrez/assets/144675850/15a14d03-4091-42be-bccf-4b97a866ad71)
+
