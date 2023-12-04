@@ -1,16 +1,20 @@
 package ajedrez;
 
-import javax.swing.SwingUtilities;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+public class Torre extends Pieza {
 
-public class main {
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            new MenuInicio();
-        });
-        
-    }
+	public Torre(Color color) {
+		super(color);
+	}
+
+	/*
+	 * Movimiento válido si la torre se mueve solo horizontalmente o verticalmente
+	 */
+	@Override
+	public boolean esMovimientoValido(int filaInicial, int columnaInicial, int filaFinal, int columnaFinal) {
+		int filaDiferencia = Math.abs(filaFinal - filaInicial);
+		int columnaDiferencia = Math.abs(columnaFinal - columnaInicial);
+
+		return (filaDiferencia == 0 || columnaDiferencia == 0);
+	} 
 }
+
