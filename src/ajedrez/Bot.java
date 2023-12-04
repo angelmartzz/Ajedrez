@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 /**
- * Clase que representa a un bot que realiza movimientos en un juego de ajedrez.
+ * Clase fallida en la que intentamos representar a un bot que realiza movimientos en el ajedrez.
  */
 public class Bot {
 
