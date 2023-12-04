@@ -11,8 +11,6 @@ public abstract class Pieza extends Tablero {
 		return color;
 	}
 
-    /**reglas*/
-
 	/**Movimiento*/
 	
     public abstract boolean esMovimientoValido(int filaInicial, int columnaInicial, int filaFinal, int columnaFinal);
