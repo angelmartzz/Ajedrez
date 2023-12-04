@@ -7,9 +7,10 @@ public class Caballo extends Pieza {
 
 	@Override
 	public boolean esMovimientoValido(int filaInicial, int columnaInicial, int filaFinal, int columnaFinal) {
-		/** Lógica para validar el movimiento de un caballo */
-		/**Debes considerar el patrón en forma de "L". */
-		/** Esta implementación es simplificada. */
-		return true;
-	}
+        int filaDiferencia = Math.abs(filaFinal - filaInicial);
+        int columnaDiferencia = Math.abs(columnaFinal - columnaInicial);
+
+        // Movimiento válido si el caballo se mueve en forma de "L" (dos pasos en una dirección y uno en otra)
+        return (filaDiferencia == 2 && columnaDiferencia == 1) || (filaDiferencia == 1 && columnaDiferencia == 2);
+    }
 }
