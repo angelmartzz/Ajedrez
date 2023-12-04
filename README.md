@@ -32,8 +32,11 @@ A medida que los jugadores realicen movimientos en el tablero, se **verificara s
 
 Hemos creado una interfaz, esta bastante incompleta pero hemos podido avanzar en el código.
 ![image](https://github.com/angelmartzz/Ajedrez/assets/144675850/ed3d4795-fb3d-40fc-9536-5a0a707c102d)
+Hemos implementado un menu principal con las opciones de nueva partida y salir, el usuario puede elegir si iniciar una nueva partida o salair del programa.
 
+![image](https://github.com/angelmartzz/Ajedrez/assets/144675850/2580e54e-23c3-4b4c-9151-95da9ac4005f)
 
+También hemos actualizado la interfaz donde ya están todas las piezas, y se pueden mover correctamente.
 ![image (1)](https://github.com/angelmartzz/Ajedrez/assets/144675850/8233d311-40e0-42c1-b1c3-a82b8fb773b2)
 
 
