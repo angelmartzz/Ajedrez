@@ -15,6 +15,10 @@ Para que los jugadores puedan interactuar con el juego, necesitaremos una **inte
 
 A medida que los jugadores realicen movimientos en el tablero, se **verificara si esos movimientos son legales** según las reglas del ajedrez.  
 
+Alguna actualización en el códgigo: 
+Tenemos patrón de diseño, el patrón de estrategia ("puedeMoverseAPosicion") cada pieza implementa su propia lógica de movimiento.
+Y tambien patrón de fábrica (Factory Pattern) "PiezaFactory" para la creación de instancias de las piezas del ajedrez.
+
 ## Esquema UML
 
 ![image](https://github.com/angelmartzz/Ajedrez/assets/144675850/934246b3-a84b-4658-9316-7ea342282789)
