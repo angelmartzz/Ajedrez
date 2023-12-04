@@ -17,7 +17,8 @@ A medida que los jugadores realicen movimientos en el tablero, se **verificara s
 
 ## Esquema UML
 
-![image](https://github.com/angelmartzz/Ajedrez/assets/144675850/45c1fa3f-35e5-4b4a-8f37-2bb0dd031f2c)
+![image](!(https://github.com/angelmartzz/Ajedrez/assets/144675850/934246b3-a84b-4658-9316-7ea342282789)
+
 
 
 
