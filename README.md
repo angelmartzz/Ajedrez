@@ -33,3 +33,8 @@ A medida que los jugadores realicen movimientos en el tablero, se **verificara s
 Hemos creado una interfaz, esta bastante incompleta pero hemos podido avanzar en el código.
 ![image](https://github.com/angelmartzz/Ajedrez/assets/144675850/ed3d4795-fb3d-40fc-9536-5a0a707c102d)
 
+
+![image (1)](https://github.com/angelmartzz/Ajedrez/assets/144675850/8233d311-40e0-42c1-b1c3-a82b8fb773b2)
+
+
+
